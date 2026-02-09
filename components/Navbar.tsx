@@ -1,5 +1,6 @@
 import React from "react";
 import { RxFontStyle } from "react-icons/rx";
+import Logo from "../public/assets/Logo.png";
 
 export const Navbar: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ export const Navbar: React.FC = () => {
         <div className="flex items-center gap-2">
           <div className="flex items-center justify-center w-16 h-16  rounded-full">
             <img
-              src="/assets/Logo.png"
+              src={Logo}
               alt="Jayavel Ganesan"
               className="h-4/5 w-4/5 object-contain opacity-80"
             />

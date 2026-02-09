@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://jayaveluiuxdesigner-crypto.github.io/myportfolio",
+  "homepage": "https://jayaveluiuxdesigner-crypto.github.io/myportfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
