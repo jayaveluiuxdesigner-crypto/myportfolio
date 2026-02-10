@@ -37,7 +37,7 @@ export const FloatingChat: React.FC = () => {
     {
       name: 'WhatsApp',
       icon: <MessageSquare className="w-5 h-5" />,
-      url: 'https://wa.me/910012340000', // Placeholder number
+      url: 'https://wa.me/919597857951', // Placeholder number
       color: 'bg-green-50 text-green-600',
       label: 'Direct Message'
     }
