@@ -1,14 +1,12 @@
 import React, { useState, useEffect } from "react";
 
-import MyprofileImage from "../public/images/profile.png";
+import MyProfileImage from "../public/images/MyProfileImage.jpeg";
 
 export const Hero: React.FC = () => {
   const [text, setText] = useState("");
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
   const [typingSpeed, setTypingSpeed] = useState(150);
-
-
 
   const roles = [
     "Senior UI/UX Designer",
@@ -88,11 +86,10 @@ export const Hero: React.FC = () => {
         <div className="relative">
           <div className="absolute inset-0 bg-purple-100 rounded-full blur-3xl opacity-30 animate-pulse"></div>
           <div className="relative z-10 bg-white p-4 rounded-[40px] shadow-2xl border border-gray-100">
-    
             <img
-              src={MyprofileImage}// path relative to public folder
+              src={MyProfileImage}
               alt="Jayavel Ganesan"
-              className="rounded-[30px] w-full object-cover "
+              className="rounded-[30px] w-full max-h-[700px]"
             />
           </div>
         </div>

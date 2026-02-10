@@ -1,6 +1,6 @@
 import React from "react";
 import { Linkedin, Download, PenTool, Instagram, Dribbble } from "lucide-react";
-import MyProfileImage from "../public/images/profile.png";
+import MyProfileImage from "../public/images/MyProfileImage.jpeg";
 
 export const About: React.FC = () => {
   return (
